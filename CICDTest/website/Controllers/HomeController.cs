@@ -12,6 +12,7 @@ namespace website.Controllers
     {
         public IActionResult Index()
         {
+            //var appSettings = Configuration.GetSection("AppSettings");
             return View();
         }
 
